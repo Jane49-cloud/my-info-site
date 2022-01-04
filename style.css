@@ -1,0 +1,136 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.first{
+   margin-left: 50px;
+   display: flex;
+   justify-content: space-evenly;
+ 
+}
+.container{
+    background-image: url("backg.webp");
+   background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    display: flex;
+    height:100%;
+    
+}
+aside{ 
+    width: 300px;
+    height: 80%;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color:rgb(20, 19, 19);
+    z-index: 100;
+}
+.elem4 {
+    visibility: hidden;
+}
+.profile{
+ margin-left: 70px;
+ margin-top: 10px;
+
+
+}
+.profile img{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid rgb(8, 41, 8);
+
+    
+}
+.profile h2{
+    color:white
+    ;
+}
+nav a{
+    text-decoration:none;
+    color: white;
+    display: block;
+    justify-content: space-around;
+    padding: 20px;   
+    width: 200px;
+    border-radius: 50px;
+    height: 10px;
+    margin: 7px;
+    margin-left: 20px;
+    background-color: rgb(46, 45, 45);
+    
+}
+main{
+     background-color: hsl(0, 0%, 4%);
+     margin-top: 50px;
+     height:80%;
+     width: 800px; 
+    }
+main p{
+  color: white;
+  margin-top: 160px;
+  margin-left: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+ button{
+     box-sizing: border-box;
+     background-color: white;
+     opacity: 0.9;
+     height: 70px;
+     color:rgb(128, 128, 0);
+ }
+ a{
+     text-decoration: none;
+ }
+
+ /* On screens that are 992px or less */
+@media screen and (max-width: 992px) {
+ .container{
+     max-width: 992px;
+     height: 800px;
+     background-size: cover;
+ }
+}
+
+/* On screens that are 600px or less,*/
+@media screen and (max-width: 600px) {
+  .container{
+     /* flex-direction: column; */
+      /* max-width: 600px; */
+      background-size: cover;
+
+      
+  }
+  aside{
+     width: 500px;
+     height: 600px;
+     /* margin-top:100px; */
+     display: block; 
+     margin-block: auto;   
+  }
+    main{
+     visibility: hidden;    
+  }
+  .elem4{
+      visibility: visible;
+      display: flex;
+  }
+  body{
+      width: max-content;
+      position: fixed;
+  }
+}
+
+
+
+
+
+
+
+

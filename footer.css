@@ -1,0 +1,14 @@
+
+footer{
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+
+.fnav a{
+ margin-left: 200px;
+
+}
+footer h2{
+text-align: center
+}
