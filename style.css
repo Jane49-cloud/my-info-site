@@ -89,7 +89,7 @@ main p{
  }
 
  footer{
-    background-color: white;
+    background-color: rgb(37, 33, 33);
     color: black;
     height: 200px;
 }
@@ -239,6 +239,32 @@ main p{
     
   }
   }
+@media screen and (max-width: 479px)
+{
+    .container{
+        width: 400px;
+        height:650px;
+        margin: 5px;
+        padding-right: 40px;      
+    
+    }
+    
+    aside{
+       margin-left: 40px;
+       height: 600px;
+       box-sizing: content-box;
+       border-radius: 20px;
+    } 
+    
+   
+    body{
+        position: fixed;
+    }
+    footer{
+        visibility: hidden;
+    }
+}
+  
 
 
 

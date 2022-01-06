@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Open Sans,sans-serif
     }
     
     body{
@@ -24,6 +25,7 @@
     #content ul li{
     padding: 5px;
     font-size:1.5rem;
+    list-style: none;
     }
      h1{
         color: rgb(35, 173, 35)
@@ -118,9 +120,9 @@ height: 200px;
      padding: 2px;
     }
 footer{
-    background-color: white;
-    color: black;
-    height: 200px;
+     background-color: rgb(37, 33, 33);
+    color: rgb(10, 4, 4);
+    height: 200px;    
 }
 .fnav li{
     list-style:none ;
@@ -182,10 +184,154 @@ width: 400px;
             width:100px;
             margin-left: 20px;
 }
+
           }
- footer{
-     width: 552px;
- }
+ @media screen and (max-width: 470px){
+.container{
+    display: flex;
+    background-color:rgb(155, 140, 140) ; 
+    width: 400px;
+    margin: 0px;
+    height: 70px;
+    
+}
+
+html { background-color: #000; } 
+body {height: fit-content;
+    max-width: 400px; 
+    margin: 0 auto;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+#content{
+    display: none;
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+main{
+    margin-top: 20x;
+    margin-left:0;
+}
+ .base nav a{
+    text-decoration:none;
+    color: white;
+    padding:0;
+    position: relative;
+    left: 30%;
+    padding:10px;
+
+   }
+    .elem1{
+       box-sizing: border-box;
+       background-color: green;
+       font-size: 1rem;
+   }
+.base{
+    height:200px;
+       background-color: black;              
+        color: white;
+        margin-top: 20px;
+}
+ /* ngg */
+        .base2 article{
+              margin-top:50px;
+              position: relative;
+              left: 50px;
+              
+           
+          }
+          .base2 img{
+              margin-top:50px;
+              position: relative;
+              right: 20px;
+              max-width: 100px;
+             
+             
+          }
+      .content{
+  background-color: #ffffff;
+ 
+ opacity: 0.9;
+display: flex;
+height: 250px;
+    }
+    .articles{
+        margin: 0;
+        display: flex;
+    }
+    .articles article{
+        margin-top: 50px;
+        margin-right: 0;
+        margin-left: 0;
+        font-size: 15px;
+        width: 50px;
+        position: relative;
+        right: 55px;
+        padding: 40px;
+        
+    }
+    .final{
+        background-color: rgb(24, 22, 22);  
+        display: flex;  
+       /* justify-content: space-evenly;  */
+    }
+    .final img{
+       margin-top: 78px;
+       max-width:100px ;
+       height: 100px;
+      position: relative;
+      left: 75px;
+      
+    }
+    .buttons{
+         margin-top: 50px;
+         padding: 25px;    
+    }
+    button{
+         background-color: white;
+         opacity: 0.9;
+         border: none;
+         height: 50px;
+         width: 50px;
+    }
+    .content ul{
+        display: flex;
+        position: relative;  
+        left: 40%;     
+    }
+    .content ul li{
+     list-style: none;
+     padding: 2px;
+    }
+footer{
+    background-color: white;
+    color: black;
+    height: 200px; 
+    white-space: nowrap;   
+}
+.fnav li{
+    list-style:none ;
+    display: inline;
+    align-items: center;
+    position: relative;
+    left: 45%;
+}
+footer{
+  visibility: hidden;
+  
+}
  footer hr{
-     width: 200px;
+            width:100px;
+            margin-left: 200px;
+ }
+ /* html, body {
+     max-width: 100%;
+} */
+ }
+ @media screen and(max-width:360px) {
+    /* body{
+        overflow: hidden;
+        position: fixed;
+    } */
  }

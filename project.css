@@ -1,0 +1,100 @@
+header{
+       background-color: white;
+       height: 50px;
+}
+nav a{
+    text-decoration:none;
+    color: black; 
+    font-size: 1.2rem;    
+    padding: 5px;
+   }
+   nav{
+        margin-left: 10px;
+        }
+   #hr{
+       margin-left: 20px;
+   }
+
+
+section{
+    background-color:rgb(139, 131, 131);
+}
+h1{
+   color: rgb(124, 10, 32 ); 
+}
+h2{
+    text-align: center;
+}
+.products {
+  padding: 4rem 0;
+}
+.section-title h1 {
+  text-align: center;
+  font-size: 2.5rem ;
+  margin-bottom: 5rem;
+  text-transform: capitalize;
+  
+}
+.products-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 2rem;
+  
+}
+.img-container {
+  position: relative;
+  overflow: hidden;
+}
+.bag-btn {
+  position: absolute;
+  top: 70%;
+  right: 0;  
+  background: white;
+  border: none;
+  text-transform: uppercase;
+  padding: 0.5rem 0.75rem;
+  
+  font-weight: bold;
+  transition:all 0.3s linear;
+  transform: translateX(101%);
+  cursor: pointer;
+}
+.bag-btn:hover {
+  color: rgb(124, 10, 32 );
+}
+.fa-shopping-cart {
+  margin-right: 0.5rem;
+}
+.img-container:hover .bag-btn {
+  transform: translateX(0);
+}
+.product-img {
+  display: block;
+  width: 100%;
+  min-height :12rem;
+  transition:all 0.3s linear;
+}
+.img-container:hover .product-img {
+  opacity: 0.1;
+}
+
+.product h3 {
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.product h4 {
+  margin-top: 0.7rem;
+    color: rgb(124, 10, 32 );
+  text-align: center;
+}
+
+body{
+    background-color: rgb(58, 51, 51);
+}
