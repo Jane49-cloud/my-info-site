@@ -98,3 +98,18 @@ h2{
 body{
     background-color: rgb(58, 51, 51);
 }
+@media screen and (min-width :992px) {
+     
+     footer hr{
+            width:300px;
+            margin-left:40%;
+ }
+ 
+ }
+ @media screen and (max-width :500) {
+     
+     footer {
+       visibility: hidden;
+     }
+ 
+ }

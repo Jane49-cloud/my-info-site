@@ -2,12 +2,13 @@
 footer{
     background-color: rgb(37, 33, 33);
     color: white;
-    height: 200px;
+    height: auto;
 }
 
 
 .fnav a{
- margin-left: 200px;
+ margin: 10pxpx;
+ margin-left:10rem;
 
 }
 footer h2{
